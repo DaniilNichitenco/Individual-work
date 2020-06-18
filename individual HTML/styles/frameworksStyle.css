@@ -1,0 +1,55 @@
+.mainBlock {
+    width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 75px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#dart, #python {
+    color: rgb(233, 232, 232);
+}
+
+.frameworks {
+    background-color: rgb(221, 212, 195);
+    background: linear-gradient(to top,  rgb(209, 209, 200) 3.3%,
+    rgb(33, 22, 133) 3.3%,rgb(33, 22, 133) 13.3%, /*Python*/
+    rgb(39, 84, 207) 14.3%, rgb(39, 84, 207) 22.5%, /*PHP*/
+    rgb(221, 112, 10) 23.5% , rgb(221, 112, 10) 33.95%, /*Java*/
+    rgb(29, 18, 196) 34.7%, rgb(29, 18, 196) 46.4%, /*Dart*/
+    rgb(211, 23, 23) 47.2%, rgb(211, 23, 23) 56.2%, /*Ruby*/
+    rgb(92, 194, 61) 57.2%, rgb(92, 194, 61) 63%, /*Vue*/
+    rgb(194, 185, 61) 63.9%, rgb(194, 185, 61) 69.4%, /*Ember*/
+    rgb(62, 54, 172) 70.3%, rgb(62, 54, 172) 78.2%, /*React Native*/
+    rgb(100, 201, 69) 79.2%, rgb(100, 201, 69) 87.4%, /*Expres JS*/
+    rgb(231, 67, 67) 88%, rgb(231, 67, 67) 96.9%, /*JS*/
+    rgb(209, 209, 200) 97.65%);
+}
+
+.mainBlock h1 {
+    margin-bottom: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+.mainBlock h2 {
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.frameworksImages {
+    width: 700px;
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}

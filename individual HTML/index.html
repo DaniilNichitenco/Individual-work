@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Frameworks for Web Development</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/swiper.min.css">
+  <meta name="description" content="Frameworks for Web Development">
+  <meta name="keywords" content="Flutter, Angular, Express JS, Ruby on Rails, React Native">
+  <meta name="author" content="Daniil Nichitenco">
+</head>
+
+<body>
+  <script src="scripts/javascript.js"></script>
+  <script src="scripts/swiper.min.js"></script>
+  <div id="page-container">
+    <div id="header-name">Frameworks for Web Development</div>
+    <nav class="full">
+      <div class="underline"></div>
+      <div class="underline"></div>
+      <div class="underline"></div>
+      <a onmouseover="ul(0)" href="index.html"> Главная</a>
+      <a onmouseover="ul(1)" href="frameworks/frameworks.html">Фреймворки</a>
+      <a onmouseover="ul(2)" href="info/feedback.html">Связаться с нами</a>
+      <a onmouseover="ul(3)" href="info/Contacts.html">О нас</a>
+    </nav>
+    <div class="corp">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s1"><a href="frameworks/frameworks.html#dart"></a></div>
+          <div class="swiper-slide s2"><a href="frameworks/frameworks.html#angular"></a></div>
+          <div class="swiper-slide s3"><a href="frameworks/frameworks.html#ruby"></a></div>
+          <div class="swiper-slide s4"><a href="frameworks/frameworks.html#react"></a></div>
+          <div class="swiper-slide s5"><a href="frameworks/frameworks.html#express"></a></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div id="mainText">
+        Веб-фреймворк — это платформа для создания сайтов и веб-приложений, облегчающее разработку и объединение разных
+        компонентов большого программного проекта. За счёт широких возможностей в реализациии бизнес-логики и высокой
+        производительности эта платформа особенно хорошо подходит для создания сложных сайтов, бизнес-приложений и
+        веб-сервисов.
+      </div>
+    </div>
+  </div>
+  <div id="buttonFrameworks">
+    <a href="frameworks/frameworks.html">TOP 10 FRAMEWORKS FOR WEB</a>
+  </div>
+  <footer id="footer">
+    <div id="footer-text"><a href="index.html">FWD.com © 2020</a> | <a href="info/Contacts.html">Контакты</a> <br><br>
+      Все материалы на сайте являются авторскими, либо взяты из открытых источников и могут быть удалены по требованию
+      их авторов при наличии доказательств авторства.
+      <br> All materials on this site are taken from public sources and may be deleted at the request of their authors
+      when there is evidence of authorship.</div>
+  </footer>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>

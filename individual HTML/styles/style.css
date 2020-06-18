@@ -1,0 +1,258 @@
+body {
+    background-image: url('../images/fon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
+.swiper-wrapper a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.swiper-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  width: 1000px;
+  height: 375px;
+}
+.swiper-slide {
+  border-radius: 10px
+}
+
+  .block {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1000px;
+    min-height: 500px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+  }
+
+  #form {
+    width: 600px;
+    padding-top: 100px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  .field {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .comment {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  #buttons {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+  }
+  #firstName, #secondName, #email, #comment {
+    border: 1px solid grey;
+  }
+
+  .block .content {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+
+  .rightF {
+    margin-left: 100px;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 90vh;
+  }
+
+  #buttons input {
+    width: 150px;
+    height: 30px;
+  }
+
+  #header-name {
+    background-color: rgb(57, 26, 99);
+    color: #adb7bd; 
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px; 
+    line-height: 36px; 
+    text-indent: 40px; 
+    margin: 0;
+  }
+
+  #buttonFrameworks {
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 100px;
+    padding: 20px;
+    width: 400px;
+    font-size: 26px;
+    background: linear-gradient(to top, rgb(45, 15, 78) 10%, rgb(100, 41, 163) 90%);
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    border-radius: 40px;
+    transition: 0.3s;
+  }
+
+  #buttonFrameworks a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: beige;
+    transition: 0.3s;
+  }
+
+  #buttonFrameworks:hover a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+  }
+
+  #buttonFrameworks:hover {
+    background: linear-gradient(to top, rgb(60, 47, 75) 10%, rgb(178, 132, 226) 90%);
+    color: black;
+  }
+
+  
+  #footer {
+    bottom: 0;
+    width: 100%;
+    height: 8rem; 
+    background: linear-gradient(to top, black, white);     
+    text-align: center;    
+  }
+  #footer-text {
+      margin-left: 30px;
+      margin-right: 30px;
+      padding-top: 15px;
+  }
+  #footer-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.s1 {
+  background-image: url('../images/flutter.jpg');
+  background-size: 100% 100%;
+}
+.s2 {
+  background-image: url('../images/angular.png');
+  background-size: 100% 100%;
+}
+.s3 {
+  background-image: url('../images/rubyOnRails.png');
+  background-size: 100% 100%;
+}
+.s4 {
+  background-image: url('../images/reactNative.jpg');
+  background-size: 100% 100%;
+}
+.s5 {
+  background-image: url('../images/expressJS.png');
+  background-size: 100% 100%;
+}
+
+.underline {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  height: var(--underline-height);
+  width: 220px;
+  background: black;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  -webkit-transition: -webkit-transform var(--transition-duration) ease-in-out;
+  transition: -webkit-transform var(--transition-duration) ease-in-out;
+  transition: transform var(--transition-duration) ease-in-out;
+  transition: transform var(--transition-duration) ease-in-out, -webkit-transform var(--transition-duration) ease-in-out;
+}
+.underline:nth-child(1) {
+  background: yellow;
+  -webkit-transition: calc(var(--transition-duration) * 0.8);
+  transition: calc(var(--transition-duration) * 0.8);
+}
+.underline:nth-child(2) {
+  background: cyan;
+  -webkit-transition: calc(var(--transition-duration) * 1.2);
+  transition: calc(var(--transition-duration) * 1.2);
+}
+.underline:nth-child(3) {
+  background: magenta;
+}
+:root {
+  --underline-height: 0.5em;
+  --transition-duration: 0.5s;
+}
+
+.full a {
+  text-decoration: none;
+  color: white;
+}
+
+nav.full {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  white-space: nowrap;
+  background: white;
+  padding: var(--underline-height) 0;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  background: rgb(28, 11, 49);
+  color: white;
+}
+nav.full .underline {
+  height: 100%;
+  background: rgb(194, 193, 193);
+}
+nav.full a {
+    display: inline-block;
+    z-index: 10;
+    width: 220px;
+    padding: 1em 0;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header {
+  z-index: 2;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.corp {
+  margin: 0 auto;
+  background-color: rgb(230, 230, 230);
+  width: 1000px;
+  border-radius: 10px;
+}
+
+#mainText {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  text-align: center;
+  width: 900px;
+  font-family: 'Open Sans Condensed', sans-serif; font-size: 36px; 
+  padding-bottom: 50px;
+}

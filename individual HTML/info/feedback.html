@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <script src="../scripts/javascript.js"></script>
+    <div id="page-container">
+        <div id="header-name">Frameworks for Web Development</div>
+        <nav class="full">
+            <div class="underline"></div>
+            <div class="underline"></div>
+            <div class="underline"></div>
+            <a onmouseover="ul(0)" href="../index.html"> Главная</a>
+            <a onmouseover="ul(1)" href="../frameworks/frameworks.html">Фреймворки</a>
+            <a onmouseover="ul(2)" href="feedback.html">Связаться с нами</a>
+            <a onmouseover="ul(3)"  href="Contacts.html">О нас</a>
+        </nav>
+        <div class="block">
+            <div id="form">
+                <form onsubmit="return correctFields();">
+                    <fieldset>
+                        <legend>
+                            <b style="font-size: 22px;">Нам важно ваше мнение!</b>
+                        </legend>
+                        <div id="error" class="error">
+                            <div id="textErr"></div>
+                            <div id="f1Err"></div>
+                            <div id="f2Err"></div>
+                            <div id="f3Err"></div>
+                            <div id="f4Err"></div>
+                        </div>
+                        <div class="field">
+                            Имя*<br>
+                            <input type="text" placeholder="Имя" id="firstName" required>
+                        </div>
+                        <div class="field rightF">
+                            Фамилия*<br>
+                            <input type="text" placeholder="Фамилия" id="secondName" required>
+                        </div>
+                        <br>
+                        <div class="field">
+                            Email*<br>
+                            <input type="text" placeholder="user@gmail.com" id="email" required>
+                        </div>
+                        <div class="field rightF">
+                            Город<br>
+                            <input type="text" placeholder="Город">
+                        </div>
+                        <div class="comment">
+                            <font style="font-size: 25px;">Сообщение(не менее 20 символов)</font>
+                            <textarea required cols="67" rows="10" id="comment" placeholder="Сообщение(не менее 20 символов)" minlength="20"></textarea>
+                        </div>
+                        <div id="buttons">
+                            <input type="reset" value="Очистить поля">
+                            <input type="submit" style="margin-left: 60px;">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div id="footer-text"><a href="../index.html">FWD.com © 2020</a> | <a href="Contacts.html">Контакты</a> <br><br>
+            Все материалы на сайте являются авторскими, либо взяты из открытых источников и могут быть удалены по
+            требованию
+            их авторов при наличии доказательств авторства.
+            <br> All materials on this site are taken from public sources and may be deleted at the request of their
+            authors
+            when there is evidence of authorship.</div>
+    </footer>
+</body>
+
+</html>
